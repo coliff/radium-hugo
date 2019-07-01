@@ -1,0 +1,26 @@
+baseurl: https://coliff.github.io/radium/
+title: Radium
+languageCode: en
+theme: radium
+disableRSS: true
+defaultContentLanguageInSubdir: true
+
+publishdir: "docs/"
+
+enableRobotsTXT: true
+
+disableKinds: ["taxonomy", "taxonomyTerm", "category", "RSS"]
+
+taxonomies:
+  tag: ""
+  group: ""
+  category: ""
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true

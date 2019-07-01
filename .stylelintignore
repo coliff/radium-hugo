@@ -1,0 +1,6 @@
+*.min.css
+*.min.js
+/node_modules
+/public
+/dist
+/docs

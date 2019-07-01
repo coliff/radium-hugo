@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo-Build",
+      "type": "shell",
+      "command": "hugo --minify",
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": {
+        "severity": "error",
+        "fileLocation": "absolute",
+        "owner": "hugo"
+      }
+    },
+    {
+      "label": "Hugo-Serve",
+      "type": "shell",
+      "command": "hugo serve",
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": {
+        "severity": "error",
+        "fileLocation": "absolute",
+        "owner": "hugo"
+      }
+    }
+  ]
+}

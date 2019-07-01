@@ -1,0 +1,133 @@
+{{ define "main" }}
+
+{{ block "header" . }} {{ partial "header" . }} {{ end }}
+
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <div class="row my-3">
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale p-5" src="https://cdn.svgporn.com/logos/hugo.svg" height="180"
+            loading="lazy" alt="" />
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">Hugo</h4>
+            <p class="card-text">
+              <ul>
+                <li>Base HTML template included with SocialGraph meta tags</li>
+                <li>Optimized Google Fonts loading with preconnect and dns-prefetch</li>
+                <li>Hugo Pipes set to auto-compile, minify and MD5-hash CSS and JavaScript for optimal performance with
+                  cache-busting</li>
+                <li>Excludes pages from being included in <code>sitemap.xml</code> if page includes
+                  <code>sitemapExclude</code>
+                  in the FrontMatter</li>
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale p-3" src="https://cdn.svgporn.com/logos/visual-studio-code.svg"
+            height="180" loading="lazy" alt="" />
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">VS Code Extensions & Tasks</h4>
+            <p class="card-text">
+              <ul>
+                <li>Includes <code>tasks.json</code> with commands to serve and build (with minify),
+                  <kbd>CTRL</kbd> + <kbd>P</kbd>, <kbd>CTRL</kbd> +
+                  <kbd>SHIFT</kbd> + <kbd>B</kbd></li>
+                <li>Recommended extensions for consistent code formatting and linting defined in
+                  <code>extensions.json</code></li>
+                <li>Code spell-check dictionary, HTMLHint rules and auto-format-on-save turned on by default in
+                  <code>settings.json</code></li>
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale"
+            src="https://www.vectorlogo.zone/logos/google_analytics/google_analytics-ar21.svg" height="180"
+            loading="lazy" alt="" />
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">Optimized Google Analytics</h4>
+            <p class="card-text">
+              <ul>
+                <li>Uses <code>analytics.js</code> loaded asynchronously</li>
+                <li>AnonymizeIP on by default</li>
+                <li>Beacon tracking for improved performance</li>
+                <li>Tracks all outgoing links, PDF downloads, JavaScript errors</li>
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale p-5" src="https://cdn.svgporn.com/logos/git.svg" height="180" alt="">
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">Git Precommit Hooks</h4>
+            <p class="card-text">
+              <ul>
+                <li>Husky and Stage-Lint</li>
+                <li>Format js, css, scss, json, yaml and yml with <a href="https://prettier.io" target="_blank"
+                    rel="noreferrer">Prettier</a></li>
+                <li>JavaScript linting with ESLint and AirBnb Config</li>
+                <li>CSS linting with Stylelint Config</li>
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale p-3" src="https://cdn.svgporn.com/logos/gulp.svg" height="180" alt="">
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">Gulp Tasks</h4>
+            <p class="card-text">
+              <ul>
+                <li>Losslessly optimize images with <a href="https://github.com/sindresorhus/gulp-imagemin"
+                    target="_blank" rel="noreferrer">gulp-imagemin</a></li>
+                <li>Test all compiled pages with <a href="https://github.com/tschortsch/gulp-bootlint" target="_blank"
+                    rel="noreferrer">Bootlint</a>, preconfigured for Bootstrap 4</li>
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-6 my-3">
+        <section class="card h-100 border shadow-sm">
+          <img class="card-img-top grayscale p-4"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Emojione_2699.svg" height="180" alt="">
+          <div class="card-body bg-light border-top">
+            <h4 class="card-title">Configs</h4>
+            <p class="card-text">
+              <ul>
+                <li><a href="https://editorconfig.org" target="_blank" rel="noreferrer">.editorconfig</a> with code
+                  formatting styleguide</li>
+                <li><a href="https://eslint.io" target="_blank" rel="noreferrer">.eslintrc.json</a> with
+                  Airbnb config</li>
+                <li><a href="https://stylelint.io" target="_blank" rel="noreferrer">.stylelintrc</a> with
+                  stylelint-config-recommended rules</li>
+                <li><a href="https://htmlhint.io" target="_blank" rel="noreferrer">.htmlhint</a> with
+                  rules configured to work well with HTML with partials</li>
+                <li><a href="https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/" target="_blank"
+                    rel="noreferrer"></a>.nojekyll</a> file included for
+                  pain-free hosting source on GitHub Pages
+              </ul>
+            </p>
+          </div>
+        </section>
+      </div>
+
+    </div>
+  </div>
+</main>
+{{ end }}
