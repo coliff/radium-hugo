@@ -2,11 +2,23 @@
 
 {{ block "header" . }} {{ partial "header" . }} {{ end }}
 
+<style>
+  #goog-wm ul {
+    list-style: none;
+  }
+</style>
+
 <main role="main">
 
-  <h1 class="my-3 text-center">
-    Page could not be found
-  </h1>
+  <div class="container">
+    <div class="col-12 text-center">
+      <h1 class="my-3">
+        Page could not be found
+      </h1>
+
+      <script src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+    </div>
+  </div>
 
 </main>
 {{ end }}
