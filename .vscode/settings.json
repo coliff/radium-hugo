@@ -94,6 +94,7 @@
     "optanon",
     "optimus",
     "overrides",
+    "pageview",
     "params",
     "precommit",
     "preconnect",
@@ -138,7 +139,7 @@
     "xmlns"
   ],
   "cSpell.language": "en-GB,en,en-US",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "htmlhint.options": {
     "alt-require": true,
     "attr-lowercase": [

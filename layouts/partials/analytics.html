@@ -1,2 +1,9 @@
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview')
+</script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="js/analytics.min.js"></script>

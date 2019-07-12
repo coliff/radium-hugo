@@ -21,12 +21,12 @@
   <meta name="theme-color" content="#F48F38">
   <meta name="description" content="{{ .Description }}">
   {{ `<!--[if IE]>
-      <link href="/css/bootstrap-ie9.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
       <script src="https://polyfill.io/v3/polyfill.min.js"></script>
-  <![endif]-->` | safeHTML }}
-
-  {{ partial "opengraph" . }}
-
+      <![endif]-->` | safeHTML }}
+  {{ template "_internal/opengraph.html" . }}
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="{{ .Lang }}">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -50,8 +50,8 @@
   {{ $js := slice $index $alert $button | resources.Concat "js/bootstrap.js" | minify }}
   <script src="{{ $js.Permalink }}"></script>
 
-  {{- if not .Site.IsServer -}}
-  {{ partial "analytics" . }}
+
+  {{ partial "analytics" . }}{{- if not .Site.IsServer -}}
   {{- end -}}
 
 </body>

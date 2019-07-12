@@ -1,9 +1,11 @@
 baseurl: https://coliff.github.io/radium-hugo/
 title: Radium
 languageCode: en
+locale: en-us
 theme: radium
 disableRSS: true
 defaultContentLanguageInSubdir: true
+googleAnalytics: UA-xxxxxx-xx
 
 publishdir: "docs/"
 
