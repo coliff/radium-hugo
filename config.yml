@@ -13,6 +13,10 @@ enableRobotsTXT: true
 
 disableKinds: ["taxonomy", "taxonomyTerm", "category", "RSS"]
 
+params:
+  title: Radium
+  description: Radium is a boilerplate for Hugo with advanced productivity-boosting features
+
 taxonomies:
   tag: ""
   group: ""
