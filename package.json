@@ -1,24 +1,27 @@
 {
   "name": "radium-hugo",
   "description": "Static Website Project Boilerplate for Hugo",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/coliff/radium-hugo/",
   "private": true,
   "author": "C. Oliff",
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "autoprefixer": "^9.7.3",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "14.0.0",
-    "eslint-config-prettier": "6.3.0",
-    "eslint-plugin-prettier": "3.1.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
     "gulp": "^4.0.2",
-    "gulp-bootlint": "^0.11.0",
+    "gulp-bootlint": "^1.0.0",
     "gulp-imagemin": "^6.2.0",
-    "husky": "^3.0.5",
-    "lint-staged": "^9.2.5",
-    "prettier": "^1.18.2",
-    "stylelint": "^11.0.0",
-    "stylelint-config-recommended": "^3.0.0"
+    "husky": "^4.0.3",
+    "lint-staged": "^9.5.0",
+    "postcss-cli": "^7.0.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.1",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-standard": "^19.0.0"
   },
   "browserslist": [
     "defaults"
