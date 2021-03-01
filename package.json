@@ -15,7 +15,7 @@
     "gulp": "^4.0.2",
     "gulp-bootlint": "^1.0.0",
     "gulp-imagemin": "^6.2.0",
-    "husky": "^4.0.3",
+    "husky": "^5.1.2",
     "lint-staged": "^9.5.0",
     "postcss-cli": "^7.1.0",
     "prettier": "^1.19.1",
